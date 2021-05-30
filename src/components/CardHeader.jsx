@@ -1,4 +1,4 @@
-export default function CardHeader({ album, track, release, image }){
+export default function CardHeader({ album = 'album #1', track = 'track #1', release = '2021', image = null}){
     return(
         <div>
             <div>
